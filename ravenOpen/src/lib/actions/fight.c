@@ -3389,7 +3389,7 @@ int does_target_dodge(CharData *victim) {
     if(affected_by_spell(victim, SKILL_DETERRENCE) && percentSuccess(50))
         return TRUE;
     
-    if(IS_THIEF(victim) && percentSuccess(50))
+    if(IS_THIEF(victim) && affected_by_spell(victim, SKILL_SDODGE) &&  percentSuccess(50))
         return TRUE;
 
     if(affected_by_spell(victim, SKILL_SHADOW_STEP))
