@@ -411,6 +411,7 @@ const struct command_info cmd_info[] = {
     { "stalk"     , POS_STANDING  , do_stalk      , 0             , 0             , NONE },
     { "sting"     , POS_FIGHTING  , do_sting      , 0             , 0             , HIDE },
     { "stop"      , POS_RESTING   , do_stop       , 1             , 0             , HIDE },
+    { "sdodge"    , POS_STANDING  , do_sdodge     , 0             , 0             , NONE },
     { "sweep"     , POS_FIGHTING  , do_sweep      , 0             , 0             , HIDE },
     { "switch"    , POS_DEAD      , do_switch     , LVL_SAINT     , 0             , NONE },
 /*
