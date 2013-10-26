@@ -25,6 +25,7 @@
 #include "specials/mail.h"
 #include "general/color.h"
 #include "magic/sing.h"
+#include "magic/spells.h"
 #include "general/objsave.h"
 #include "actions/ban.h"
 #include "olc/olc.h"
