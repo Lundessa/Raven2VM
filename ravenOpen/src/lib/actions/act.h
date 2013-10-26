@@ -292,6 +292,7 @@ ACMD(do_sit);
 ACMD(do_skillset);
 ACMD(do_sleep);
 ACMD(do_sneak);
+ACMD(do_sdodge);
 ACMD(do_snoop);
 ACMD(do_spec_comm);
 ACMD(do_split);
