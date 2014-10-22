@@ -2212,7 +2212,7 @@ char *spells[TOP_SPELL_DEFINE + 2] =
   "charge",
   "flashbang",
   "instant poison",	/* 295 */
-  "!UNUSED!",
+  "do_dodge",
   "!UNUSED!", 
   "!UNUSED!", 
   "!UNUSED!",
