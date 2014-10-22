@@ -294,18 +294,19 @@
 #define AFF_PULSE_HIT         42        /* Pulse heal hitpoints */
 #define AFF_PULSE_MANA        43        /* Pulse heal mana */
 #define AFF_DISTRACT          44        /* distracted */
-#define AFF_CRUSADE           45        /* crusading */
-#define AFF_APOCALYPSE        46        /* Char has an Aura of Apocalypse */
-#define AFF_MISSION           47        /* Char is on a Divine Mission */
-#define AFF_UNUSED            48        /* UNUSED! ex-SHIELDSTUN */
-#define AFF_LORE              49        /* Char is using forest lore */
-#define AFF_LEARNING          50        /* Char gets a 2x boost to exp */
-#define AFF_FLAME_BLADE       51        /* 1d4+level/10 to damage, type burn */
-#define AFF_UNUSED2           52        /* Not currently used.  Used to be sunvisor*/
-#define AFF_WRAITHFORM        53        /* Not entirely pyhsically present */
-#define AFF_DISEASE           54        /* A much nastier form of poison */
+#define AFF_DO_DODGE              45        /*dodging more*/ 
+#define AFF_CRUSADE           46        /* crusading */
+#define AFF_APOCALYPSE        47        /* Char has an Aura of Apocalypse */
+#define AFF_MISSION           48        /* Char is on a Divine Mission */
+#define AFF_UNUSED            49        /* UNUSED! ex-SHIELDSTUN */
+#define AFF_LORE              50        /* Char is using forest lore */
+#define AFF_LEARNING          51        /* Char gets a 2x boost to exp */
+#define AFF_FLAME_BLADE       52        /* 1d4+level/10 to damage, type burn */
+#define AFF_UNUSED2           53        /* Not currently used.  Used to be sunvisor*/
+#define AFF_WRAITHFORM        54        /* Not entirely pyhsically present */
+#define AFF_DISEASE           56        /* A much nastier form of poison */
 /* Total number of affect flags **/
-#define NUM_AFF_FLAGS     55
+#define NUM_AFF_FLAGS     56
 
 
 /* Modes of connectedness: used by descriptor_data.state */
