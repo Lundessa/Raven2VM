@@ -123,7 +123,7 @@ static skill_vector_t skill_vector[] = {
     { SKILL_DEVOUR,     do_devour  },
     { SKILL_BLOCK,      do_block   },
     { SKILL_SHIELD_BASH, SKILL_NULL},  /* 85 */
-    { SKILL_SDODGE,     do_sdodge },
+    { SKILL_DO_DODGE, do_dodge },
 };/* 86 */
 
 /*
@@ -157,7 +157,6 @@ static skill_vector_t skill_vector[] = {
 #define SKILL_CHARGE                293
 #define SKILL_FLASHBANG		    294
 #define SKILL_INSTANT_POISON	    295
-#define SKILL_SDODGE                296
 */
 
 /*
