@@ -372,7 +372,7 @@
 #define SKILL_CHARGE                293
 #define SKILL_FLASHBANG		    294
 #define SKILL_INSTANT_POISON	    295
-#define SKILL_SDODGE                296
+#define SKILL_DO_DODGE                          296
 
 /*
  *  NON-PLAYER AND OBJECT SPELLS AND SKILLS
