@@ -2661,6 +2661,11 @@ void mag_assign_spells(void)
   /*     Mu  Cl  Th  Wa  Ra  As  Sl  Kn  Dk  Sd  Nm  ??  ??  ??  ??  ?? */
          XX, XX, XX, XX, XX, 45, XX, XX, XX, XX, XX,
 	 0, 0, 0, 0, 0, TRUE, 0, ZZ);
+
+  spello(SKILL_DO_DODGE,
+  /*     Mu  Cl  Th  Wa  Ra  As  Sl  Kn  Dk  Sd  Nm  ??  ??  ??  ??  ?? */
+         XX, XX, 35, XX, XX, XX, XX, XX, XX, XX, XX,
+	 0, 0, 0, 0, 0, TRUE, 0, ZZ);
   /*
    *
    * SONGS
