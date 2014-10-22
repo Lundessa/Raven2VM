@@ -122,6 +122,7 @@ const struct command_info cmd_info[] = {
     { "dismount"  , POS_RESTING   , do_dismount   , 0             , 0             , HIDE },
     { "display"   , POS_DEAD      , do_display    , 1             , 0             , NONE },
     { "distract"  , POS_STANDING  , do_distract   , 0             , 0             , HIDE },
+    { "dodge"     , POS_STANDING  , do_dodge      , 0             , 0             , NONE },
     { "donate"    , POS_RESTING   , do_drop       , 1             , SCMD_DONATE   , HIDE },
     { "doorbash"  , POS_FIGHTING  , do_doorbash   , 0             , 0             , HIDE },
     { "drink"     , POS_RESTING   , do_drink      , 1             , SCMD_DRINK    , NONE },
@@ -411,7 +412,6 @@ const struct command_info cmd_info[] = {
     { "stalk"     , POS_STANDING  , do_stalk      , 0             , 0             , NONE },
     { "sting"     , POS_FIGHTING  , do_sting      , 0             , 0             , HIDE },
     { "stop"      , POS_RESTING   , do_stop       , 1             , 0             , HIDE },
-    { "sdodge"    , POS_STANDING  , do_sdodge     , 0             , 0             , NONE },
     { "sweep"     , POS_FIGHTING  , do_sweep      , 0             , 0             , HIDE },
     { "switch"    , POS_DEAD      , do_switch     , LVL_SAINT     , 0             , NONE },
 /*
