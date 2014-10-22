@@ -88,7 +88,7 @@ static void free_messages_type(struct msg_type *msg);
 
 
 /*                                Mu  Cl  Th  Wa  Ra  As  Sl  Kn  Dk  Sd  Nm  XX  XX  XX  XX  XX  XX  XX  XX  XX */
-static int max_dodge_lvls[] =   { 00, 00, 74, 00, 70, 70, 75, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00 };
+static int max_dodge_lvls[] =   { 00, 00, 80, 00, 70, 70, 75, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00 };
 #define SKILL_DODGE_LEARN         max_dodge_lvls[ (int)GET_CLASS(victim) ]
 
 /*                                Mu  Cl  Th  Wa  Ra  As  Sl  Kn  Dk  Sd  Nm  XX  XX  XX  XX  XX  XX  XX  XX  XX */
@@ -3389,7 +3389,7 @@ int does_target_dodge(CharData *victim) {
     if(affected_by_spell(victim, SKILL_DETERRENCE) && percentSuccess(50))
         return TRUE;
     
-    if(IS_THIEF(victim) && affected_by_spell(victim, SKILL_SDODGE) &&  percentSuccess(50))
+    if(affected_by_spell(victim, SKILL_DO_DODGE) && percentSuccess(50))
         return TRUE;
 
     if(affected_by_spell(victim, SKILL_SHADOW_STEP))
