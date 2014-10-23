@@ -41,6 +41,7 @@ CSRCS       = spells.c        \
               disarm.c        \
               distract.c      \
               doorbash.c      \
+              dodge.c         \
               dust.c          \
               envenom.c       \
               epic.c          \
